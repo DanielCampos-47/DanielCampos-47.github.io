@@ -1,0 +1,164 @@
+body {
+    background-color: #1C2321;
+    margin: 0%;
+}
+
+
+
+
+
+header {
+    background-color: #1C2321;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contactLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+.contactLink img {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+.splitContainer {
+    background-color: gray;
+    display: flex;
+}
+
+.splitSevenFive {
+    width: 75%;
+    padding: 20px 0px;
+    padding-right: 150px; /*UPDATE*/
+    background-color: #7D98A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1.5em;
+}
+.name {
+    font-size: 2em;
+}
+
+.splitQuarter {
+    width: 25%;
+    padding: 20px 0px;
+    background-color: #0047AB;
+}
+#headshot {
+    background-color: #1C2321;
+    display: block;
+    width: 300px;
+    height: 300px;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+.aboutContainer {
+    background-color: #1C2321;
+    padding: 20px 0px;
+}
+.aboutContainer p {
+    margin: 0%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 90%;
+    margin: auto;
+}
+.aboutContainer span {
+    font-size: 3em;
+}
+
+
+
+
+
+.projectSection {
+    background-color: #0047AB;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0px 10px 0px;
+}
+#projectsTitle {
+    margin: 0%;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projectCard {
+    background-color: #7D98A1;
+    font-weight: bold;
+    max-width: 30%;
+    padding: 20px;
+    margin: 10px 0px;
+}
+.projectCard p {
+    margin: 0%;
+}
+
+
+
+
+
+footer {
+    background-color: #1C2321;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px 0px;
+}
+footer p {
+    color: white;
+    margin: 0%;
+    font-size: 2em;
+}
+.attributionContainer a {
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 1125px) {
+    .introduction {
+        font-size: 1em;
+        padding-left: 2px;
+    }
+
+    #headshot {
+        height: 200px;
+        width: 200px;
+    }
+    .splitSevenFive {
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .projectCard {
+        max-width: 80%;
+    }
+}
